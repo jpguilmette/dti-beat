@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gray-600">test</div>
+    Leaderboard
 </template>
 
 <script lang="ts" setup></script>

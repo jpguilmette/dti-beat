@@ -1,17 +1,17 @@
 import { Story } from '@storybook/vue3';
-import HomeVue from '../views/Home.vue';
+import ProfilVue from '../views/Profil.vue';
 
 export default {
-    title: 'views/Home',
-    component: { HomeVue },
+    title: 'views/Profil',
+    component: { ProfilVue },
 };
 
 const Template: Story = (args) => ({
-    components: { HomeVue },
+    components: { ProfilVue },
     setup: () => {
         return { args };
     },
-    template: `<HomeVue v-bind="args"></HomeVue>`,
+    template: `<ProfilVue v-bind="args"></ProfilVue>`,
 });
 
 export const Default = Template.bind({});

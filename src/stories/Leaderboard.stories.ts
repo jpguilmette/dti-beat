@@ -1,17 +1,17 @@
 import { Story } from '@storybook/vue3';
-import HomeVue from '../views/Home.vue';
+import LeaderboardVue from '../views/Leaderboard.vue';
 
 export default {
-    title: 'views/Home',
-    component: { HomeVue },
+    title: 'views/Leaderboard',
+    component: { LeaderboardVue },
 };
 
 const Template: Story = (args) => ({
-    components: { HomeVue },
+    components: { LeaderboardVue },
     setup: () => {
         return { args };
     },
-    template: `<HomeVue v-bind="args"></HomeVue>`,
+    template: `<LeaderboardVue v-bind="args"></LeaderboardVue>`,
 });
 
 export const Default = Template.bind({});

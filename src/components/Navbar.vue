@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gray-600">test</div>
+    Navbar
 </template>
 
 <script lang="ts" setup></script>

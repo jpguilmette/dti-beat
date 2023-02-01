@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-gray-600">test</div>
+    Profil
 </template>
 
 <script lang="ts" setup></script>
